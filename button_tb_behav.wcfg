@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="button_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="button_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="300.000210001 ms"></ZoomEndTime>
+      <Cursor1Time time="126.250215000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="269"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/button_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/button_tb/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/button_tb/noisy" type="logic">
+      <obj_property name="ElementShortName">noisy</obj_property>
+      <obj_property name="ObjectShortName">noisy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/button_tb/debounced" type="logic">
+      <obj_property name="ElementShortName">debounced</obj_property>
+      <obj_property name="ObjectShortName">debounced</obj_property>
+   </wvobject>
+   <wvobject fp_name="/button_tb/p_edge" type="logic">
+      <obj_property name="ElementShortName">p_edge</obj_property>
+      <obj_property name="ObjectShortName">p_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/button_tb/n_edge" type="logic">
+      <obj_property name="ElementShortName">n_edge</obj_property>
+      <obj_property name="ObjectShortName">n_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/button_tb/_edge" type="logic">
+      <obj_property name="ElementShortName">_edge</obj_property>
+      <obj_property name="ObjectShortName">_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/button_tb/T" type="array">
+      <obj_property name="ElementShortName">T[31:0]</obj_property>
+      <obj_property name="ObjectShortName">T[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/button_tb/DELAY" type="array">
+      <obj_property name="ElementShortName">DELAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DELAY[31:0]</obj_property>
+   </wvobject>
+</wave_config>
